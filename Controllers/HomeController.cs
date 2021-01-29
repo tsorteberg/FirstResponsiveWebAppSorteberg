@@ -19,7 +19,7 @@
 using Microsoft.AspNetCore.Mvc;
 using FirstResponsiveWebAppSorteberg.Models;
 
-namespace FutureValue.Controllers
+namespace FirstResponsiveWebAppSorteberg.Controllers
 {
     public class HomeController : Controller
     {
