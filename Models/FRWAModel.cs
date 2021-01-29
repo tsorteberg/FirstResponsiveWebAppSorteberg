@@ -21,7 +21,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FirstResponsiveWebAppSorteberg.Models
 {
-    public class FutureValueModel
+    public class FRWAModel
     {
         // Constants
         private const double YEAR = 365;
