@@ -35,7 +35,7 @@ namespace FutureValue.Controllers
         {
             if (ModelState.IsValid)
             {
-                ViewBag.Age = model.CalculateAge();
+                ViewBag.Age = model.AgeThisYear();
             }
             else
             {
