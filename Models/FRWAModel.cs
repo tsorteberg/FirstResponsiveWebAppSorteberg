@@ -35,7 +35,7 @@ namespace FirstResponsiveWebAppSorteberg.Models
         public DateTime? BirthDate { get; set; }
 
         // Calculate age method.
-        public double? AgeThisYear()
+        public double AgeThisYear()
         {
             DateTime EndDate = DateTime.Today;
             double Age = (EndDate - BirthDate).Value.TotalDays;
